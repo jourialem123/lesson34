@@ -21,3 +21,48 @@
 #keyboard{
    height:400px; 
 }
+#result{
+    height:120px;
+}
+
+.operator,.number,.empty{
+    height:50px;
+    width:50px;
+    margin:10px;
+    border:0px;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+button:nth-child(4){
+    background-color: rgb(255, 0, 0);
+}
+
+button:nth-child(8) {
+    background-color: brown;
+}
+
+button:nth-child(12) {
+    background-color: rgb(121, 50, 50);
+}
+
+button:nth-child(16) {
+    background-color: rgb(79, 43, 43);
+}
+
+button:nth-child(4) {
+    background-color: rgb(39, 30, 30);
+}
+
+.operator:hover{
+    font-size: 40px;
+}
+
+.number:hover{
+    font-size: 40px;
+}
+
+.operator,.number{
+
+cursor:pointer;
+}
