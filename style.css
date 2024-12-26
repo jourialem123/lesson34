@@ -50,7 +50,7 @@ button:nth-child(16) {
     background-color: rgb(79, 43, 43);
 }
 
-button:nth-child(4) {
+button:nth-child(20) {
     background-color: rgb(39, 30, 30);
 }
 
@@ -65,4 +65,20 @@ button:nth-child(4) {
 .operator,.number{
 
 cursor:pointer;
+}
+
+#history{
+    text-align: right;
+    height:20px;
+    margin:0 20px;
+    color: gray;
+    font-size:15px;
+    padding-top:20px;
+}
+
+#output{
+    text-align:center;
+    height:60px;
+    margin: 10px 20px;
+    font-size: 30px;
 }
